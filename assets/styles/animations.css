@@ -1,0 +1,208 @@
+/* Animasi Navbar */
+@keyframes nav-hover {
+    0% {
+        margin-top: -1000px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+/* Intro Box Animation*/
+@keyframes intro-box {
+    0% {
+        opacity: 1;
+        width: 0%;
+    }
+
+    70% {
+        width: 62%;
+    }
+
+    100% {
+        width: 60%;
+        opacity: 1;
+    }
+}
+
+@keyframes intro-text_title {
+    0% {
+        transform: translateY(0);
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-30px);
+        transform-origin: 50% 50%;
+        text-shadow: 0 1px 0 #e0a716, 0 2px 0 #e0a716, 0 3px 0 #e0a716,
+            0 4px 0 #e0a716, 0 5px 0 #e0a716, 0 6px 0 #e0a716, 0 7px 0 #e0a716,
+            0 8px 0 #e0a716, 0 9px 0 #e0a716, 0 40px 20px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@keyframes intro-text_typing-subtitle {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes intro-text_typing-subtitle {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+/* Profile Box Animation*/
+@keyframes profile-box {
+    0% {
+        width: 400px;
+        height: 400px;
+    }
+
+    50% {
+        background-color: #24252a;
+    }
+
+    85% {
+        border: none;
+    }
+
+    100% {
+        border: none;
+        background-color: #24252a;
+        height: 550px;
+        top: 100px;
+        left: 50%;
+    }
+}
+
+@keyframes profile-box__mobile {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+}
+
+@keyframes profile-box_image {
+    100% {
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 5px;
+    }
+}
+
+@keyframes profile-box_name {
+    50% {
+        transform: rotate(90deg);
+        white-space: nowrap;
+        color: white;
+        background-color: transparent;
+        font-size: 35px;
+        padding: 2px;
+        border-radius: 10px;
+        pointer-events: none;
+        font-family: "Montserrat", Times New Roman;
+        transition: all 1s ease 0.8s;
+    }
+
+    100% {
+        padding: auto;
+        top: 250px;
+        transform: rotate(90deg);
+        font-size: 35px;
+        margin-right: -380px;
+        font-family: "Montserrat", Times New Roman;
+    }
+}
+
+@keyframes profile-box_name__mobile {
+    0% {
+        margin-top: 45px;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes profile-box_job-title {
+    50% {
+        top: 450px;
+    }
+
+    100% {
+        top: 450px;
+        opacity: 0;
+    }
+}
+
+@keyframes profile-box_job-title__mobile {
+    0% {
+        margin-top: 30px;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes profile-box_triangle__mobile {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Loading Animation */
+@keyframes loading-screen-bg {
+    0% {}
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+@keyframes loading-progress {
+    80% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
+
+@keyframes loading-progress {
+    0% {
+        width: 0;
+        height: 1px;
+    }
+
+    50% {
+        width: 100%;
+        height: 1px;
+    }
+
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,55 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Style -->
-    <link rel="stylesheet" href="css/animasi.css" type="text/css" media="all" />
+<html lang="id">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#ff7911" />
 
-    <link
-      rel="stylesheet"
-      href="css/bootstrap.css"
-      type="text/css"
-      media="all"
-    />
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <meta name="theme-color" content="#ff7911" />
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet" />
 
-    <style>
-      img[alt="www.000webhost.com"],
-      .disclaimer {
-        display: none;
-      }
-    </style>
+		<!-- Styles -->
+		<link rel="stylesheet" href="assets/styles/bootstrap.css" />
+		<link rel="stylesheet" href="assets/styles/base.css" />
+		<link rel="stylesheet" href="assets/styles/animations.css" />
 
-    <title>Aau</title>
-  </head>
-  <body>
-    <div class="load"></div>
+		<title>Aau</title>
+	</head>
+	<body>
+		<nav class="navbar fixed-top navbar-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand fw-bold" href="">Aau</a>
+				<ul class="nav navbar-nav">
+					<li><a href="" data-hover="aau.aah">aau.aah</a></li>
+				</ul>
+			</div>
+		</nav>
 
-    <nav class="navbar fixed-top navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand fw-bold" href="">Aau</a>
-        <ul class="navv nav">
-          <li><a href="" data-hover="aau.aah">aau.aah</a></li>
-        </ul>
-      </div>
-    </nav>
-    <main id="Home">
-      <div class="kotak2">
-        <div class="k2">
-          <h1 class="name2">Hi, I'm YogS</h1>
-          <h3 class="sub mt-1">Maaf Untuk Versi Desktop Belum Selesai.</h3>
-          <p class="des"></p>
-          <a href="#ABOUT" class="button button-flex"></a>
-        </div>
-      </div>
-      <div class="kotak">
-        <img src="img/logo.jpg" alt="Yoga Prastyo" />
-        <h3 class="name text-light fw-bold">Yoga Prastyo Bayu Laksono</h3>
-        <h6 class="job text-light">Web Developer</h6>
-      </div>
-      <div class="segitiga"></div>
-    </main>
-  </body>
+		<main id="home">
+			<div class="intro-box">
+				<div class="intro-text">
+					<h1 class="title">Hi, I'm YogS</h1>
+					<h3 class="sub-title mt-1">Maaf, Versi Desktop Belum Selesai.</h3>
+					<p class="description"></p>
+				</div>
+			</div>
+			<div class="profile-box">
+				<img src="assets/images/profile.jpg" alt="Yoga Prastyo" />
+				<h3 class="name text-light fw-bold">Yoga Prastyo Bayu Laksono</h3>
+				<h6 class="job-title text-light">Web Developer</h6>
+			</div>
+		</main>
+
+		<div class="loading-screen"></div>
+	</body>
 </html>
